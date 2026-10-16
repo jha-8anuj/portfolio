@@ -2,7 +2,7 @@
 
 Full Stack Developer | Java | Spring Boot | Next.js | TypeScript
 
-🌐 **Live Portfolio:** https://portfolio-web-fawn-nine.vercel.app/
+🌐 **Live Portfolio:** https://portfolio-mp5e2r4hq-anuj-portfolio4.vercel.app/
 
 💻 **GitHub:** https://github.com/jha-8anuj
 
