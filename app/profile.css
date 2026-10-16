@@ -1,5 +1,25 @@
-.profile-card{position:absolute;z-index:2;right:4%;top:2%;width:190px;background:#0c1829;border:1px solid #31577e;border-radius:12px;padding:8px;box-shadow:0 20px 50px rgba(0,0,0,.28);transform:rotate(5deg)}
-.profile-card img{display:block;width:100%;height:210px;object-fit:cover;object-position:center top;border-radius:8px;filter:saturate(.92)}
-.profile-caption{padding:10px 4px 5px;display:grid;gap:4px}.profile-caption span{font-size:10px;font-weight:800;letter-spacing:.06em}.profile-caption small{color:#8ca4bd;font:9px 'Courier New',monospace;letter-spacing:.05em}
-.code-card{z-index:3}
-@media(max-width:560px){.hero-visual{height:370px}.profile-card{right:0;top:0;width:145px}.profile-card img{height:165px}.code-card{width:310px;margin-top:80px}}
+.profile-card{position:absolute;z-index:2;right:4%;top:2%;width:190px;background:linear-gradient(145deg,rgba(29,49,79,.95),rgba(7,13,26,.94));border:1px solid rgba(117,181,242,.5);border-radius:14px;padding:8px;box-shadow:20px 28px 52px rgba(0,0,0,.45),inset 0 1px rgba(255,255,255,.18);transform:translateZ(80px) rotateY(11deg) rotateX(4deg) rotate(5deg);transition:transform .45s ease}.hero-visual:hover .profile-card{transform:translateZ(110px) rotateY(15deg) rotateX(7deg) rotate(4deg)}.profile-card img{display:block;width:100%;height:210px;object-fit:cover;object-position:center top;border-radius:9px;filter:saturate(.92) contrast(1.05)}.profile-caption{padding:10px 4px 5px;display:grid;gap:4px}.profile-caption span{font-size:10px;font-weight:800;letter-spacing:.06em}.profile-caption small{color:#8ca4bd;font:9px 'Courier New',monospace;letter-spacing:.05em}
+@media(max-width:560px){.profile-card{right:0;top:0;width:145px}.profile-card img{height:165px}.hero-visual{height:370px}.code-card{width:310px;margin-top:80px}}
+
+/* Readability and interaction polish */
+body{font-family:Inter,"Segoe UI",Arial,Helvetica,sans-serif;font-size:16px;line-height:1.55;letter-spacing:.005em}
+.nav-links{gap:30px}.nav-links a,.mobile-links a{font-size:13px}
+.resume-button{font-size:13px;padding:11px 15px}
+.hero h1{font-size:clamp(52px,7vw,88px)}
+.availability{font-size:13px}.hero-subtitle{font-size:23px}.hero-description{font-size:17px;line-height:1.75}
+.primary-button,.secondary-button{font-size:13px;padding:14px 18px}
+.icon-button{width:44px;height:44px}
+.marquee{font-size:12px;padding:19px 0}
+.content-section{padding:128px 0}
+.section-label{font-size:12px;margin-bottom:22px}
+.section-head{margin-bottom:62px}.section-head h2,.contact-inner h2{font-size:clamp(44px,5.4vw,70px)}
+.about-lead{font-size:28px}.about-body{font-size:15px;line-height:1.85}
+.skill-group{padding:24px;min-height:154px}.skill-group h3{font-size:15px}.skill-pills span,.tag-list span{font-size:11px;padding:7px 10px}
+.learning-note span{font-size:12px}.learning-note p{font-size:13px}
+.project-card{padding:24px}.project-card h3{font-size:22px}.project-card p{font-size:14px;line-height:1.75}
+.timeline-item h3,.resume-list h3{font-size:25px}.timeline-item p,.resume-list p{font-size:14px;line-height:1.8}
+.contact-section{padding:128px 0}.contact-inner>p:not(.section-label){font-size:16px;line-height:1.8}.contact-links a{font-size:13px}
+.footer{font-size:12px}
+:where(a,button):focus-visible{outline:2px solid var(--cyan);outline-offset:4px}
+@media(max-width:850px){.hero{padding:104px 0}.content-section{padding:96px 0}.contact-section{padding:96px 0}.section-head{margin-bottom:44px}}
+@media(max-width:560px){.hero h1{font-size:50px}.hero-subtitle{font-size:20px}.hero-description{font-size:16px}.content-section{padding:82px 0}.section-head h2,.contact-inner h2{font-size:43px}.about-lead{font-size:24px}.about-body{font-size:15px}.project-card h3{font-size:21px}.contact-section{padding:88px 0}}
